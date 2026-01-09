@@ -233,7 +233,6 @@ h1 {
   align-items: center;
   transition: all 0.3s ease;
 }
-
 .notes-card:not(:last-child) {
   border-right: 1px solid #f1f5f9;
 }
