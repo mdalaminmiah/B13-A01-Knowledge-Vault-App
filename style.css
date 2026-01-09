@@ -1,0 +1,95 @@
+/* Global Style  Start*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+}
+.btn {
+  background-color: #30b868;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* Global Style End*/
+
+/* Nav Style  Start*/
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.nav-logo {
+  margin-left: 120px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.nav-logo img {
+  height: 60px;
+  width: 140px;
+}
+.nav-menu {
+  display: flex;
+  gap: 33px;
+  list-style: none;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #000000;
+}
+.nav-btn-container {
+  margin-right: 120px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* Nav Style  End*/
+
+/* Hero Style  Start*/
+.hero {
+  display: flex;
+  height: 80vh;
+  background-image: url('./assets/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+/* Optional: Dark overlay Start*/
+.hero::after {
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4); /* adjust opacity */
+}
+
+/* need to work again blakist overlay with linier gradiyent */
+/* Optional: Dark overlay End*/
+.hero-content {
+  padding: 0 20px;
+  max-width: 800px;
+}
+
+.early-access {
+  display: flex; /* flex container */
+  justify-content: center; /* center items horizontally */
+  gap: 20px; /* space between items */
+  background-color: #ffffff; /* badge background */
+  color: #30b868; /* text color */
+  margin: 0; /* remove default margin */
+  padding: 6px 12px; /* padding inside the badge */
+  border-radius: 20px; /* rounded corners */
+}
+
+/* Hero Style  End*/
